@@ -1,0 +1,30 @@
+{
+  "name": "fs-pet-store",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A small server app to demonstrate CRUD over an HTTP API",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/fs-pet-shop.git"
+  },
+  "keywords": [
+    "pet",
+    "store",
+    "crud",
+    "http"
+  ],
+  "author": "Ryan Sobol <contact@ryansobol.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gSchool/fs-pet-shop/issues"
+  },
+  "homepage": "https://github.com/gSchool/fs-pet-shop#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^1.19.4",
+    "pg": "^8.11.3"
+  }
+}
